@@ -5,11 +5,11 @@
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-xl-10 text-center">
-                <h1 class="title text-primary mb-5">ZCODE</h1>
+                <h1 class="title text-primary mb-3">ZCODE</h1>
                 <h3 class="mb-3 fw-normal tagline">Create, Learn, and Discuss Together About Website Programming With Fun</h3>
-                <p class="mb-5">ZCODE is a platform for creating, learning and discussing together about website programming. You will have a pleasant experience and can increase your insight and knowledge with us.</p>
-                <a href="#contact" class="btn btn-primary">Contact Us</a>
-                <a href="/project" class="btn btn-outline-primary">Projects</a>
+                <p class="mb-5 text-secondary">ZCODE is a platform for creating, learning and discussing together about website programming. You will have a pleasant experience and can increase your insight and knowledge with us.</p>
+                <a href="#contact" class="btn btn-primary px-4 me-2">Contact Us</a>
+                <a href="/project" class="btn btn-light">Projects</a>
             </div>
         </div>
     </div>
@@ -19,12 +19,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="mb-5">About Us</h3>
+                <h3 class="mb-5 text-center fw-bold">About Us</h3>
                 <div class="row d-flex justify-content-between">
-                    <div class="col-md-5 mb-5">
-                        <img src="/img/about.jpg" class="rounded img-fluid grayscale" alt="zcode">
+                    <div class="col-md-6 col-xl-5 mb-4 text-center">
+                        <img src="/img/about.jpg" class="rounded img-fluid" alt="zcode">
                     </div>
-                    <div class="col-md-6 align-self-center">
+                    <div class="col-md-6 col-xl-6 align-self-center">
                         <p class="justify">ZCODE is a platform for creating, learning and discussing together about website programming. You will have a pleasant experience and can increase your insight and knowledge with us. We can help you create the website of your dreams. We can learn and discuss together to add insight and knowledge about web programming.</p>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12 mb-5">
-                <h3>What Features Will You Get?</h3>
+                <h3 class="fw-bold">What Features Will You Get?</h3>
             </div>
         </div>
         <div class="row text-center">
@@ -48,14 +48,14 @@
                     <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1h-1a.5.5 0 0 0 0 1h1v1a.5.5 0 0 0 1 0v-1h1a.5.5 0 0 0 0-1h-1v-1a.5.5 0 0 0-.5-.5Z" />
                 </svg>
                 <h5 class="mt-3">Create</h5>
-                <p>Create the website of your dreams</p>
+                <p class="text-secondary">Create the website of your dreams</p>
             </div>
             <div class="col-md-4 mb-5">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
                     <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
                 </svg>
                 <h5 class="mt-3">Learn</h5>
-                <p>You can learn easily and have fun</p>
+                <p class="text-secondary">You can learn easily and have fun</p>
             </div>
             <div class="col-md-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-chat-text" viewBox="0 0 16 16">
@@ -63,7 +63,7 @@
                     <path d="M4 5.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zM4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8zm0 2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z" />
                 </svg>
                 <h5 class="mt-3">Discuss</h5>
-                <p>Increase your insight and knowledge</p>
+                <p class="text-secondary">Increase your insight and knowledge</p>
             </div>
         </div>
     </div>
@@ -71,56 +71,131 @@
 
 <section class="project mb-5 pt-5 pb-5" id="project">
     <div class="container">
-        <div class="row text-center">
-            <div class="col-md-12 mb-5">
-                <h3>Our Projects</h3>
+        <div class="row text-center mb-5">
+            <div class="col-md-12 ">
+                <h3 class="fw-bold">Our Projects</h3>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-md-6 mb-5">
-                <img src="/img/fuluss.png" class="rounded img-fluid pro grayscale" alt="iKPOP">
-                <h5 class="mt-5">Fuluss</h5>
-                <a href="https://fuluss.rf.gd/" target="_blank">
-                    Visit Site
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                    </svg>
-                </a>
+        <div class="row mb-5">
+            <div class="col-xl-6 mb-5">
+                <div class="card">
+                    <img src="/img/freenet2.png" class="card-img-top">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <h6 class="card-title fw-bold mb-2">FREENET.ID</h6>
+                                <p class="card-text text-secondary">Version 1.1.0</p>
+                            </div>
+                            <div class="col-4 align-self-center text-end">
+                                <a href="https://freenet.id/" target="_blank" class="btn btn-light btn-sm">View
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6 mb-5">
-                <img src="/img/iKPOP.png" class="rounded img-fluid pro grayscale" alt="iKPOP">
-                <h5 class="mt-5">iKPOP</h5>
-                <a href="https://ikpop.rf.gd/" target="_blank">
-                    Visit Site
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                    </svg>
-                </a>
+            <div class="col-xl-6 mb-5">
+                <div class="card">
+                    <img src="/img/quran.png" class="card-img-top">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <h6 class="card-title fw-bold mb-2">Daily Quran</h6>
+                                <p class="card-text text-secondary">Version 1.1.0</p>
+                            </div>
+                            <div class="col-4 align-self-center text-end">
+                                <a href="https://dailyquran.rf.gd/" target="_blank" class="btn btn-light btn-sm">View
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6 mb-5">
-                <img src="/img/dlk.png" class="rounded img-fluid pro grayscale" alt="DLK">
-                <h5 class="mt-5">Drive Listen Korea</h5>
-                <a href="https://drivelistenkorea.rf.gd/" target="_blank">
-                    Visit Site
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                    </svg>
-                </a>
+            <div class="col-xl-6 mb-5">
+                <div class="card">
+                    <img src="/img/fuluss.png" class="card-img-top">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <h6 class="card-title fw-bold mb-2">Fuluss</h6>
+                                <p class="card-text text-secondary">Version 1.1.0</p>
+                            </div>
+                            <div class="col-4 align-self-center text-end">
+                                <a href="https://fuluss.rf.gd/" target="_blank" class="btn btn-light btn-sm">View
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6 mb-5">
-                <img src="/img/e-shop.png" class="rounded img-fluid pro grayscale" alt="e-shop">
-                <h5 class="mt-5">e-shop</h5>
-                <a href="https://electronicshop.rf.gd/index.php" target="_blank">
-                    Visit Site
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                    </svg>
-                </a>
+            <div class="col-xl-6">
+                <div class="card">
+                    <img src="/img/iKPOP.png" class="card-img-top">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <h6 class="card-title fw-bold mb-2">iKPOP</h6>
+                                <p class="card-text text-secondary">Version 3.1.0</p>
+                            </div>
+                            <div class="col-4 align-self-center text-end">
+                                <a href="https://ikpop.rf.gd/" target="_blank" class="btn btn-light btn-sm">View
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="col text-center">
-                <a href="/project" class="btn btn-primary">View More</a>
+                <a href="/project" class="btn btn-light">View More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="client mb-5 pt-5 pb-5" id="client">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12 mb-5">
+                <h3 class="fw-bold">Our Clients</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-6 mb-5">
+                <div class="row">
+                    <div class="col text-center">
+                        <img src="/img/freenet.png" alt="" width="150px">
+                    </div>
+                    <div class="col align-self-center">
+                        <h1 class="fw-bold" style="color: #5526FF;">FREENET.ID</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <h5 class="card-title fw-bold">Dika Burhanudin</h5>
+                                <h6 class="card-subtitle mb-3 text-secondary">Founder of freenet.id</h6>
+                            </div>
+                        </div>
+                        <p class="card-text">The service provided is fast. Moreover, if there is a problem, it is quickly resolved. Okay, that's very good. 😁</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -130,11 +205,11 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12 mb-5">
-                <h3>Contact Us</h3>
+                <h3 class="fw-bold">Contact Us</h3>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xl-3 col-md-6 text-center mb-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-xl-4 text-center mb-4">
                 <div class="card" style="cursor: pointer;" onclick="window.open('https://www.instagram.com/zcode25/', '_blank')">
                     <div class="card-body">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
@@ -145,7 +220,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-md-6 text-center mb-5">
+            <div class="col-md-6 col-xl-4 text-center mb-4">
                 <div class="card" style="cursor: pointer;" onclick="window.open('mailto:adamzein345@gmail.com', '_blank')">
                     <div class="card-body">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
@@ -156,7 +231,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-md-6 text-center mb-5">
+            <div class="col-md-6 col-xl-4 text-center mb-4">
                 <div class="card" style="cursor: pointer;" onclick="window.open('https://t.me/wpc_zcode', '_blank')">
                     <div class="card-body">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
@@ -167,7 +242,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-md-6 text-center">
+            <div class="col-md-6 col-xl-4 text-center mb-4">
                 <div class="card" style="cursor: pointer;" onclick="window.open('https://api.whatsapp.com/send?phone=6281316671373&text=Hello%20ZCODE!', '_blank');">
                     <div class="card-body">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -178,8 +253,115 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-6 col-xl-4 text-center">
+                <div class="card" style="cursor: pointer;" onclick="window.open('https://github.com/zcode25', '_blank');">
+                    <div class="card-body">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                        </svg>
+                        <h5 class="card-title mt-3">GitHub</h5>
+                        <p class="card-text">zcode25</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+</section>
+
+<section style="margin-bottom: -20px;">
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+        <style>
+            .path-0 {
+                animation: pathAnim-0 4s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes pathAnim-0 {
+                0% {
+                    d: path("M 0,400 C 0,400 0,100 0,100 C 74.5263157894737,97.43540669856459 149.0526315789474,94.87081339712918 254,99 C 358.9473684210526,103.12918660287082 494.31578947368416,113.95215311004786 603,118 C 711.6842105263158,122.04784688995214 793.6842105263157,119.32057416267942 888,119 C 982.3157894736843,118.67942583732058 1088.9473684210525,120.76555023923444 1183,118 C 1277.0526315789475,115.23444976076556 1358.5263157894738,107.61722488038278 1440,100 C 1440,100 1440,400 1440,400 Z");
+                }
+
+                25% {
+                    d: path("M 0,400 C 0,400 0,100 0,100 C 117.21531100478472,103.31100478468899 234.43062200956945,106.62200956937798 326,108 C 417.56937799043055,109.37799043062202 483.4928229665071,108.82296650717704 558,114 C 632.5071770334929,119.17703349282296 715.5980861244021,130.08612440191388 824,122 C 932.4019138755979,113.91387559808614 1066.114832535885,86.83253588516747 1173,80 C 1279.885167464115,73.16746411483253 1359.9425837320575,86.58373205741626 1440,100 C 1440,100 1440,400 1440,400 Z");
+                }
+
+                50% {
+                    d: path("M 0,400 C 0,400 0,100 0,100 C 99.78947368421049,76.20095693779905 199.57894736842098,52.40191387559808 310,62 C 420.421052631579,71.59808612440192 541.4736842105265,114.5933014354067 626,116 C 710.5263157894735,117.4066985645933 758.5263157894735,77.22488038277511 851,73 C 943.4736842105265,68.77511961722489 1080.421052631579,100.50717703349282 1186,111 C 1291.578947368421,121.49282296650718 1365.7894736842104,110.74641148325358 1440,100 C 1440,100 1440,400 1440,400 Z");
+                }
+
+                75% {
+                    d: path("M 0,400 C 0,400 0,100 0,100 C 116.24880382775117,87.20574162679426 232.49760765550235,74.41148325358851 335,76 C 437.50239234449765,77.58851674641149 526.2583732057417,93.5598086124402 600,109 C 673.7416267942583,124.4401913875598 732.4688995215312,139.34928229665073 837,137 C 941.5311004784688,134.65071770334927 1091.866028708134,115.04306220095694 1200,106 C 1308.133971291866,96.95693779904306 1374.066985645933,98.47846889952153 1440,100 C 1440,100 1440,400 1440,400 Z");
+                }
+
+                100% {
+                    d: path("M 0,400 C 0,400 0,100 0,100 C 74.5263157894737,97.43540669856459 149.0526315789474,94.87081339712918 254,99 C 358.9473684210526,103.12918660287082 494.31578947368416,113.95215311004786 603,118 C 711.6842105263158,122.04784688995214 793.6842105263157,119.32057416267942 888,119 C 982.3157894736843,118.67942583732058 1088.9473684210525,120.76555023923444 1183,118 C 1277.0526315789475,115.23444976076556 1358.5263157894738,107.61722488038278 1440,100 C 1440,100 1440,400 1440,400 Z");
+                }
+            }
+        </style>
+        <path d="M 0,400 C 0,400 0,100 0,100 C 74.5263157894737,97.43540669856459 149.0526315789474,94.87081339712918 254,99 C 358.9473684210526,103.12918660287082 494.31578947368416,113.95215311004786 603,118 C 711.6842105263158,122.04784688995214 793.6842105263157,119.32057416267942 888,119 C 982.3157894736843,118.67942583732058 1088.9473684210525,120.76555023923444 1183,118 C 1277.0526315789475,115.23444976076556 1358.5263157894738,107.61722488038278 1440,100 C 1440,100 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#00b1ff66" class="transition-all duration-300 ease-in-out delay-150 path-0"></path>
+        <style>
+            .path-1 {
+                animation: pathAnim-1 4s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes pathAnim-1 {
+                0% {
+                    d: path("M 0,400 C 0,400 0,200 0,200 C 75.61722488038276,199.82775119617224 151.23444976076553,199.6555023923445 260,201 C 368.76555023923447,202.3444976076555 510.67942583732054,205.20574162679426 613,214 C 715.3205741626795,222.79425837320574 778.0478468899523,237.52153110047843 863,235 C 947.9521531100477,232.47846889952157 1055.1291866028707,212.7081339712919 1155,204 C 1254.8708133971293,195.2918660287081 1347.4354066985647,197.64593301435406 1440,200 C 1440,200 1440,400 1440,400 Z");
+                }
+
+                25% {
+                    d: path("M 0,400 C 0,400 0,200 0,200 C 125.75119617224883,204.35406698564594 251.50239234449765,208.70813397129186 330,212 C 408.49760765550235,215.29186602870814 439.7416267942583,217.52153110047846 524,212 C 608.2583732057417,206.47846889952154 745.5311004784689,193.20574162679426 860,188 C 974.4688995215311,182.79425837320574 1066.1339712918661,185.65550239234452 1159,189 C 1251.8660287081339,192.34449760765548 1345.933014354067,196.17224880382776 1440,200 C 1440,200 1440,400 1440,400 Z");
+                }
+
+                50% {
+                    d: path("M 0,400 C 0,400 0,200 0,200 C 118.83253588516749,202.60287081339712 237.66507177033498,205.20574162679424 321,203 C 404.334928229665,200.79425837320576 452.17224880382764,193.77990430622012 545,200 C 637.8277511961724,206.22009569377988 775.6459330143541,225.67464114832535 895,218 C 1014.3540669856459,210.32535885167465 1115.2440191387561,175.52153110047848 1203,168 C 1290.7559808612439,160.47846889952152 1365.377990430622,180.23923444976077 1440,200 C 1440,200 1440,400 1440,400 Z");
+                }
+
+                75% {
+                    d: path("M 0,400 C 0,400 0,200 0,200 C 89.51196172248802,210.92822966507177 179.02392344497605,221.85645933014354 263,226 C 346.97607655502395,230.14354066985646 425.4162679425838,227.5023923444976 527,224 C 628.5837320574162,220.4976076555024 753.3110047846889,216.13397129186603 848,217 C 942.6889952153111,217.86602870813397 1007.3397129186603,223.9617224880383 1101,222 C 1194.6602870813397,220.0382775119617 1317.3301435406697,210.01913875598086 1440,200 C 1440,200 1440,400 1440,400 Z");
+                }
+
+                100% {
+                    d: path("M 0,400 C 0,400 0,200 0,200 C 75.61722488038276,199.82775119617224 151.23444976076553,199.6555023923445 260,201 C 368.76555023923447,202.3444976076555 510.67942583732054,205.20574162679426 613,214 C 715.3205741626795,222.79425837320574 778.0478468899523,237.52153110047843 863,235 C 947.9521531100477,232.47846889952157 1055.1291866028707,212.7081339712919 1155,204 C 1254.8708133971293,195.2918660287081 1347.4354066985647,197.64593301435406 1440,200 C 1440,200 1440,400 1440,400 Z");
+                }
+            }
+        </style>
+        <path d="M 0,400 C 0,400 0,200 0,200 C 75.61722488038276,199.82775119617224 151.23444976076553,199.6555023923445 260,201 C 368.76555023923447,202.3444976076555 510.67942583732054,205.20574162679426 613,214 C 715.3205741626795,222.79425837320574 778.0478468899523,237.52153110047843 863,235 C 947.9521531100477,232.47846889952157 1055.1291866028707,212.7081339712919 1155,204 C 1254.8708133971293,195.2918660287081 1347.4354066985647,197.64593301435406 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#00b1ff88" class="transition-all duration-300 ease-in-out delay-150 path-1"></path>
+        <style>
+            .path-2 {
+                animation: pathAnim-2 4s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes pathAnim-2 {
+                0% {
+                    d: path("M 0,400 C 0,400 0,300 0,300 C 89.55023923444975,315.28229665071774 179.1004784688995,330.5645933014354 272,323 C 364.8995215311005,315.4354066985646 461.1483253588517,285.02392344497605 566,281 C 670.8516746411483,276.97607655502395 784.3062200956936,299.3397129186603 878,299 C 971.6937799043064,298.6602870813397 1045.6267942583734,275.61722488038276 1136,272 C 1226.3732057416266,268.38277511961724 1333.1866028708132,284.1913875598086 1440,300 C 1440,300 1440,400 1440,400 Z");
+                }
+
+                25% {
+                    d: path("M 0,400 C 0,400 0,300 0,300 C 69.3205741626794,278.3732057416268 138.6411483253588,256.7464114832536 238,264 C 337.3588516746412,271.2535885167464 466.755980861244,307.3875598086125 567,312 C 667.244019138756,316.6124401913875 738.3349282296653,289.7033492822967 828,287 C 917.6650717703347,284.2966507177033 1025.9043062200956,305.7990430622009 1131,312 C 1236.0956937799044,318.2009569377991 1338.0478468899523,309.10047846889955 1440,300 C 1440,300 1440,400 1440,400 Z");
+                }
+
+                50% {
+                    d: path("M 0,400 C 0,400 0,300 0,300 C 120.9377990430622,286.9569377990431 241.8755980861244,273.9138755980861 321,278 C 400.1244019138756,282.0861244019139 437.4354066985645,303.30143540669854 525,316 C 612.5645933014355,328.69856459330146 750.3827751196172,332.8803827751196 855,324 C 959.6172248803828,315.1196172248804 1031.0334928229665,293.177033492823 1123,287 C 1214.9665071770335,280.822966507177 1327.4832535885166,290.4114832535885 1440,300 C 1440,300 1440,400 1440,400 Z");
+                }
+
+                75% {
+                    d: path("M 0,400 C 0,400 0,300 0,300 C 111.65550239234452,312.96650717703346 223.31100478468903,325.933014354067 305,318 C 386.68899521531097,310.066985645933 438.4114832535885,281.23444976076553 548,267 C 657.5885167464115,252.76555023923444 825.0430622009571,253.1291866028708 917,262 C 1008.9569377990429,270.8708133971292 1025.4162679425838,288.2488038277512 1100,296 C 1174.5837320574162,303.7511961722488 1307.2918660287082,301.8755980861244 1440,300 C 1440,300 1440,400 1440,400 Z");
+                }
+
+                100% {
+                    d: path("M 0,400 C 0,400 0,300 0,300 C 89.55023923444975,315.28229665071774 179.1004784688995,330.5645933014354 272,323 C 364.8995215311005,315.4354066985646 461.1483253588517,285.02392344497605 566,281 C 670.8516746411483,276.97607655502395 784.3062200956936,299.3397129186603 878,299 C 971.6937799043064,298.6602870813397 1045.6267942583734,275.61722488038276 1136,272 C 1226.3732057416266,268.38277511961724 1333.1866028708132,284.1913875598086 1440,300 C 1440,300 1440,400 1440,400 Z");
+                }
+            }
+        </style>
+        <path d="M 0,400 C 0,400 0,300 0,300 C 89.55023923444975,315.28229665071774 179.1004784688995,330.5645933014354 272,323 C 364.8995215311005,315.4354066985646 461.1483253588517,285.02392344497605 566,281 C 670.8516746411483,276.97607655502395 784.3062200956936,299.3397129186603 878,299 C 971.6937799043064,298.6602870813397 1045.6267942583734,275.61722488038276 1136,272 C 1226.3732057416266,268.38277511961724 1333.1866028708132,284.1913875598086 1440,300 C 1440,300 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#00b1ffff" class="transition-all duration-300 ease-in-out delay-150 path-2"></path>
+    </svg>
 </section>
 
 <section class="footer pt-5 pb-5" id="footer">

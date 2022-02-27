@@ -1,5 +1,10 @@
+// font
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+// variabel
+$primary-color : #00B1FF;
+
+// style
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -21,9 +26,73 @@ body {
     background: #555;
 }
 
-.navbar {
-    box-shadow: 0px 1px 20px 0px rgb(206, 210, 223);
+@mixin card($type) {
+    .card {
+        @if $type == 'project' {
+            padding: 0px;
+            .card-body {
+                padding: 20px;
+                border-radius: 15px 15px 0px 0px;
+            }
+        } @else {
+            padding: 20px;
+        }
+        
+        border-radius: 5px;
+        border: none;
+        box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, .15);
+        transition: .3s;
+    }
+    
+    @if $type == 'contact' {
+        .card:hover {
+            transform: scale(.95);
+            background-color: $primary-color;
+            color: #fff;
+        }
+    } @else {
+        .card:hover {
+            transform: translateY(-20px);
+            box-shadow: 0px 8px 30px 0px rgba(42, 67, 113, .1);
+        }
+    }
 }
+
+.navbar {
+    box-shadow: 0px 1px 20px 0px rgb(0,0,0,.1);
+    
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        transition: box-shadow .15s ease-in-out;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+    
+    .nav-link {
+        color: #333 !important;
+        transition: .3s;
+    }
+
+    .nav-link:hover, nav-link:focus {
+        color: $primary-color !important;
+    }
+}
+
+.about {
+    img {
+        box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, .15);
+    }
+}
+
 
 .justify {
     text-align: justify;
@@ -35,80 +104,53 @@ body {
 }
 
 .btn-primary {
-    background: #00B1FF !important;
-    border-color: #00B1FF !important;
+    background: $primary-color !important;
+    border-color: $primary-color !important;
 }
 
 .btn-outline-primary {
-    border-color: #00B1FF !important;
-    color: #00B1FF !important;
+    border-color: $primary-color !important;
+    color: $primary-color !important;
 }
 
 .btn-outline-primary:hover {
-    background: #00B1FF !important;
-    border-color: #00B1FF !important;
+    background: $primary-color !important;
+    border-color: $primary-color !important;
     color: white !important;
 }
 
 .text-primary {
-    color: #00B1FF!important;
+    color: $primary-color!important;
 }
 
 .hero, .feature, .latar {
     background-color: #fafaff;
 }
 
+
 .footer  {
-    background-color: #00B1FF;
+    background-color: $primary-color;
     color: #fff;
 }
 
 .title {
-    font-size: 60px;
+    font-size: 100px;
 }
 
 .tagline {
     line-height: 35px;
 }
 
-.card {
-    padding: 20px;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 0px 5px 20px 0px rgb(206, 210, 223);
-    transition: .3s;
+.project {
+    @include card('project');
 }
 
-.card:hover {
-    transform: scale(.95);
+.client {
+    @include card('client')
 }
 
-.pro {
-    box-shadow: 0px 10px 20px 0px rgb(206, 210, 223);
-    transition: .3s;
-    cursor: pointer;
-}
-
-.pro:hover {
-    transform: scale(.95);
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    color: #000;
-}
-
-.grayscale {
-    filter: grayscale(100%);
-    transition: .3s;
-}
-
-.grayscale:hover {
-    filter: grayscale(0%);
+.contact {
+    @include card('contact');
 }
 
 @media only screen and (max-width: 768px) {

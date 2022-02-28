@@ -174,13 +174,13 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xl-6 mb-5">
-                <div class="row">
-                    <div class="col text-center">
-                        <img src="/img/freenet.png" alt="" width="150px">
+            <div class="col-xl-6 mb-5 align-self-center">
+                <div class="row justify-content-center">
+                    <div class="col-4 col-md-4 text-center align-self-center">
+                        <img src="/img/freenet.png" alt="" width="100px">
                     </div>
-                    <div class="col align-self-center">
-                        <h1 class="fw-bold" style="color: #5526FF;">FREENET.ID</h1>
+                    <div class="col-8 col-md-5 align-self-center">
+                        <h1 class="fw-bold" style="color: #5526FF; font-size: 45px;">FREENET.ID</h1>
                     </div>
                 </div>
             </div>

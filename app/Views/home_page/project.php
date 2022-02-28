@@ -3,9 +3,9 @@
 
 <section class="project pt-5 pb-5" id="project">
     <div class="container">
-        <div class="row text-center mb-5">
-            <div class="col-md-12 mb-3">
-                <h3 class="fw-bold">Our Projects</h3>
+        <div class="row text-center mb-4">
+            <div class="col-md-12">
+                <h3 class="fw-bold mb-2">Our Projects</h3>
                 <p class="text-secondary">These are some of the projects we have done.</p>
             </div>
         </div>

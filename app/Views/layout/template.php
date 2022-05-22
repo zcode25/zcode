@@ -19,7 +19,7 @@
 
     <meta property="og:title" content="ZCODE">
     <meta property="og:description" content="ZCODE is a platform for creating, learning and discussing together about website programming. You will have a pleasant experience and can increase your insight and knowledge with us.">
-    <meta property="og:image" content="zcode.png">
+    <meta property="og:image" content="/img/zcode.png">
 </head>
 
 <body>
